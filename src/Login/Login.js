@@ -100,6 +100,9 @@ class Login extends React.Component {
         />
 
         <div id="oauth__box">
+          <p className="text__google">
+            <b>구글</b>로 시작하시겠어요?
+          </p>
           <img
             src={btn_google}
             alt="google__signin"
